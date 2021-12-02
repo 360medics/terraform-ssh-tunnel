@@ -1,4 +1,9 @@
+### DO NOT DELETE THIS REPOSITORY
+This repository is used by the `inapp` task terraform module [here](https://github.com/360medics/inapp-template/tree/master/deploy).
 
+It is referencing the master branch, so be careful as it could break deployment of certain inapps.
+
+### Introduction
 This terraform module allows to communicate with a resource via an SSH tunnel.
 
 I use it to create and configure databases on AWS RDS instances but it can be
